@@ -1,0 +1,19 @@
+# Бинарные файлы
+/bin/
+*.exe
+*.out
+
+# Файлы IDE
+/.vscode/
+/.idea/
+
+# Зависимости
+vendor/
+/go.sum
+
+# Конфигурационные файлы
+.env
+config.json
+
+# Логи
+*.log
