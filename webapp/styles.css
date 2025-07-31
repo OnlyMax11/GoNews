@@ -76,10 +76,22 @@ h1 {
 .news-description {
     color: #34495e;
     margin-bottom: 15px;
+    
+
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    
+
+    display: -moz-box;
+    -moz-box-orient: vertical;
+    -moz-line-clamp: 3;
+    
+
+    display: box;
+    line-clamp: 3;
+    box-orient: vertical;
 }
 
 .read-more {
